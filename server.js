@@ -3,7 +3,7 @@ var prerender = require('./lib');
 
 var server = prerender({
   logRequests: true,
-  pageLoadTimeout: 5 * 60 * 1000
+  pageLoadTimeout: 2 * 60 * 1000
 });
 
 
